@@ -1,0 +1,18 @@
+.messageMenuContainer {
+    width: 35%;
+    color: white;
+}
+
+.Header {
+    height: 60px;
+}
+
+.searhBar {
+    height: fit-content;
+}
+
+.messageMenu {
+    width: 100%;
+    height: 83vh;
+    overflow-y: scroll;
+}

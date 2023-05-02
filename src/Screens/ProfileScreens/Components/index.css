@@ -1,0 +1,48 @@
+.ProfileBannerContainer {
+    width: inherit;
+}
+
+
+
+.profileImageContainer {
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileImageContainer img {
+    margin-top: -90px;
+    cursor: pointer;
+    border: 5px solid black;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.profileImageContainer button {
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid rgb(90, 85, 85);
+    color: white;
+    background-color: black;
+}
+
+.ProfileTextDetails {
+    margin: 20px;
+    padding: 0 5px;
+    height: 150px;
+
+}
+
+.ProfileTextDetails h3 {
+    margin-top: -20px;
+    color: gray;
+    text-align: center;
+    width: 150px;
+}

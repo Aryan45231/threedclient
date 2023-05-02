@@ -1,0 +1,74 @@
+.FriendBoxContainer {
+    width: inherit;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid rgb(78, 69, 69);
+    height: 80px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.FriendBoxContainer img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.boxText * {
+    margin: 0 10px;
+}
+
+.boxText h3 {
+    color: rgb(105, 92, 92);
+}
+
+.VannerCOntainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ChildBannerContainer {
+    width: 50%;
+    font-size: 15px;
+}
+
+.bannerButton {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    border-radius: 45px;
+    background-color: rgb(23, 166, 227);
+}
+
+.chatHeader {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.reciverProfileContainer {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.reciverProfileContainer img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.reciverProfileContainer h3,
+h4 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.reciverProfileContainer h4 {
+    color: rgb(111, 104, 104);
+}

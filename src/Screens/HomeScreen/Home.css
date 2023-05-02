@@ -1,0 +1,34 @@
+.NavContainer{
+    padding: 5px;
+   width: inherit;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.378);
+}
+.TweetCardContainer{
+    padding-top: 110px;
+}
+
+.sideContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px ;
+
+}
+ /* Side Card and Contents Styling */
+.sideContainer input{
+    border-radius: 30px;
+    padding:  0 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(56, 53, 53);
+}
+.WhatsHappeningCard p{
+  margin: 0 10px;
+  font-weight: 800px;
+  font-size: 22px;
+}
+

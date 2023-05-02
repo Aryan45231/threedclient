@@ -1,0 +1,139 @@
+.SideBarContainer{
+    width:  15vw;
+    height: 100vh;
+    min-width: 200px;;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SideBarContainer .UpperPart  button{
+    background-color: rgb(11, 174, 239);
+    font-size: 25px;
+    padding: 5px ;
+    cursor: pointer;
+    color: white;
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+}
+.SideBarContainer .UpperPart li h3{
+    margin: 0;
+    margin-top: 5px;;
+    padding: 10px 0;
+    border-radius: 20px;;
+    position: relative;
+    transition:  all .1s linear ;
+}
+.SideBarContainer .UpperPart li h3:hover{
+   background-color: rgba(162, 154, 154, 0.351);
+}
+.SideBarContainer li{
+    cursor:  pointer;
+    color: whitesmoke;
+}
+
+/* New Tweet Design */
+
+.ProfilePart{
+    width: 60px;
+    position: relative;
+    top: -160px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.ProfilePart img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.NewTweetBody{
+    flex: 1;
+    display: flex;
+    flex-direction: column  ;
+    margin-left: 20px;
+     height: 100%;
+}
+.NewTweetMainBody{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-direction: column;
+}
+.NewTweetMainBody select{
+    width: 200px;
+    color: rgb(24, 203, 243);
+    border: 1px solid rgb(8, 175, 241);
+    background-color: black;
+}
+.NewTweetMainBody *:focus{
+    outline: rgb(14, 161, 219);
+}
+.NewTweetMainBody textarea{
+    color: white    ;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 800px;
+    border-radius: 10px;
+    min-height: 60%;
+}
+textarea:focus{
+    outline: none;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.NewTweetFooterBody{
+    display: flex;
+    border-top: 1px solid rgb(66, 63, 63);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+.NewTweetMainBody p{
+    color: rgb(8, 176, 242);
+}
+.NewTweetFooterBody button{
+    cursor: pointer;
+    padding: 10px;
+    width:   140px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400px;
+    background-color: rgba(6, 165, 228, 0.878);
+}
+/* TabBOx */
+.TabBoxContainer{
+    position: absolute;
+    top:40%;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    overflow-y: scroll;
+    width: 60%;
+    height: 400px;
+}
+
+
+.searchedContainer{
+    border-bottom: 1px solid gray;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 0;
+    align-items: center;
+}
+.searchedContainer h1{
+    font-size: 25px;
+}
+.searchedContainer img{
+    margin: 0 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;;
+}
